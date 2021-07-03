@@ -1,0 +1,36 @@
+
+.html{
+    width: max-content;
+    margin : auto ;
+    margin-top : 10px;
+    padding : 10px;
+    border: 2px solid white ;
+    
+  }
+  
+  .html ul{
+    list-style-type: none;
+  }
+  
+  .html a {
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+  }
+  
+  .html a:link{
+    color: white;
+    
+  }
+  
+  
+  .html  a:visited { 
+    color: white; 
+    
+  }
+  
+  .html  a:hover{
+    color: red;
+    text-decoration: underline;
+  
+  }

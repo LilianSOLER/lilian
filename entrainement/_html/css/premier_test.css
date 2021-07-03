@@ -1,0 +1,32 @@
+h1,p{
+    color: blue; /*Commentaires*/
+}
+
+h1{
+
+    font-weight: bold;
+}
+
+.introduction{
+    color: red;/*class ne référence pas qu'un élément et c'ets un . */
+}
+
+#fin{
+    color: yellow;/*id ne référence qu'un élément et c'ets un # */
+}
+
+.un{
+    color: green;
+}
+
+*{
+    text-decoration: underline;
+}
+
+h1 + p {
+    text-transform: capitalize;
+}
+
+h1 em{
+    text-transform: lowercase;
+}

@@ -7,12 +7,12 @@
     <title>Correction TD Arduino</title>
     <link rel="stylesheet" type="text/css" href="css/_index.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <?php include("../php/script.php"); ?>
+    <?php include("../../php/script.php"); ?>
 </head>
 
 <body>
     <div class='tout'>
-        <?php include("../php/newHeader.php"); ?>
+        <?php include("../../php/newHeader.php"); ?>
         <div class="html">
             <h1>Correction TD Arduino</h1>
 
@@ -54,7 +54,7 @@
             </ul>
         </div>
 
-        <?php include("../php/newSocial.php"); ?>
+        <?php include("../../php/newSocial.php"); ?>
         <!-- 728x90_btf  Leader board-->
         <ins data-zone="234867" class="byadthink"></ins>
         <script type="text/javascript" async src="//ad.adxcore.com/adjs_r.php?async&what=zone:234867&inf=no"></script>

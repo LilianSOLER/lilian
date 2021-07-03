@@ -1,0 +1,16 @@
+h1{
+    width: 300px ;
+    
+    background-color: grey;
+}
+
+p{
+    width: 50%;
+    min-width: 400px;
+    border: 1px solid black;
+    text-align: justify;
+    margin: 50px; /*marge extérieur, margin: 2px 0 3px 1px (marge haut, droite,bas, gauche, sens aiguilles montre*/
+    padding: 12px;/*marge intérieur*/
+    overflow: auto; /* si jamais le texte dépasse alors on scroll*/
+    word-wrap: break-word;/*on force le navigateur à aller à la ligne si long mot*/
+}
