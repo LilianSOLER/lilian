@@ -1,0 +1,42 @@
+[30-Dec-2020 18:44:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/didelofr/public_html/Projet/cible_random_name_generator.php on line 26
+[30-Dec-2020 18:44:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/didelofr/public_html/Projet/cible_random_name_generator.php on line 26
+[30-Dec-2020 18:48:53 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/cible_random_name_generator.php on line 21
+[30-Dec-2020 18:48:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/cible_random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/cible_random_name_generator.php on line 22
+[30-Dec-2020 18:49:16 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/cible_random_name_generator.php on line 21
+[30-Dec-2020 18:49:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/cible_random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/cible_random_name_generator.php on line 22
+[30-Dec-2020 18:50:09 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/random_name_generator.php on line 21
+[30-Dec-2020 18:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/random_name_generator.php on line 22
+[30-Dec-2020 18:51:17 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/random_name_generator.php on line 21
+[30-Dec-2020 18:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/random_name_generator.php on line 22
+[30-Dec-2020 18:51:18 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/random_name_generator.php on line 21
+[30-Dec-2020 18:51:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/random_name_generator.php on line 22
+[30-Dec-2020 18:51:20 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/random_name_generator.php on line 21
+[30-Dec-2020 18:51:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/random_name_generator.php on line 22
+[30-Dec-2020 18:51:23 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/random_name_generator.php on line 21
+[30-Dec-2020 18:51:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/random_name_generator.php on line 22
+[31-Dec-2020 05:34:50 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, int given in /home/didelofr/public_html/Projet/random_name_generator.php on line 21
+[31-Dec-2020 05:34:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/didelofr/public_html/Projet/random_name_generator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/didelofr/public_html/Projet/random_name_generator.php on line 22
