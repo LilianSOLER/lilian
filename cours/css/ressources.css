@@ -1,0 +1,15 @@
+body {
+	max-width: 90%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 100px;
+	padding-right: 100px; 
+	border-right: solid 2px white;
+	border-left: solid 2px white;
+}
+h1 {
+	text-align: center;
+	border-top: solid 2px white;
+	padding: 20px;
+	border-bottom: solid 2px white;
+}

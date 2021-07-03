@@ -1,0 +1,22 @@
+body {
+    color:white;
+    background-color: #1e1e1e;
+    }
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+a:link{
+    color: white; }
+
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+a:visited { 
+    color: white; 
+    text-decoration: none 
+}
