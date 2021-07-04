@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="SOLER Lilian">
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Cafe with a Vue</title>
+	</head>
+	<body>
+		<div id="app" class="app">
+			<h1>{{restaurantName[0].toUpperCase()+restaurantName.slice(1)}}</h1>
+      <p>
+				Bienvenue dans notre café {{restaurantName}} ! Nous sommes réputés pour notre
+				pain et nos merveilleuses pâtisseries. Faites vous plaisir dès le matin
+				ou avec un goûter réconfortant. Mais attention, vous verrez qu'il est
+				difficile de s'arrêter.
+			</p>
+			<footer class="footer">
+				<p>Copyright {{restaurantName[0].toUpperCase()+restaurantName.slice(1)+' '+ date}}</p>
+			</footer>
+		</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+      const app = new Vue({
+        el: '#app',
+        data: {
+          restaurantName: 'la belle vue',       
+          date: new Date().getFullYear(),
+        }
+      })
+    </script>
+	</body>
+</html>
