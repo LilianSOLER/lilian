@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cours particuliers pour Slimane</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/_index.css">
     <link rel="stylesheet" type="text/css" href="css/cours.css">
     <?php include("../php/script.php"); ?>
 </head>
