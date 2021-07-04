@@ -1,0 +1,13 @@
+[05-Nov-2020 16:30:56 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:30:57 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:30:58 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:31:07 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:31:49 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:31:51 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:49:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:49:18 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:49:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 16:49:21 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/didelofr/public_html/Entrainement_php/partie3/jeux_video.php on line 5
+[05-Nov-2020 18:25:23 UTC] PHP Parse error:  syntax error, unexpected '$requete' (T_VARIABLE) in /home/didelofr/public_html/Entrainement_php/partie3/application_perso.php on line 61
+[05-Nov-2020 18:25:25 UTC] PHP Parse error:  syntax error, unexpected '$requete' (T_VARIABLE) in /home/didelofr/public_html/Entrainement_php/partie3/application_perso.php on line 61
+[05-Nov-2020 18:25:26 UTC] PHP Parse error:  syntax error, unexpected '$requete' (T_VARIABLE) in /home/didelofr/public_html/Entrainement_php/partie3/application_perso.php on line 61
