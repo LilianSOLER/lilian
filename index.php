@@ -5,7 +5,7 @@
 	<meta charset='utf-8'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Site de Lilian Soler</title>
-	<link rel="stylesheet" type="text/css" href="https://didelo.fr/css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<?php include("php/script.php"); ?>
 </head>
 
