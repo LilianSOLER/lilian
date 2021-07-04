@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierre Feuille Pince</title>
-    <link rel="stylesheet" type="text/css" href="https://didelo.fr/Css/Acceuil/index3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <?php include("../../Php/script.php"); ?>
+    <link rel="stylesheet" type="text/css" href="../css/_index.css">
+    <?php include("../../php/script.php"); ?>
     <style>
         #puit {
             color: transparent;
@@ -27,7 +26,7 @@
 
 <body>
     <div class='tout'>
-        <?php include("../../Php/newHeader.php"); ?>
+        <?php include("../../php/newHeader.php"); ?>
         <div class="html">
             <br /><br /><br /><br />
             <button class='jeu'>Pierre</button>
@@ -36,7 +35,7 @@
             <button class='jeu' id='puit'>Puit</button><br />
             <div class="resultat"></div>
         </div>
-        <?php include("../../Php/newSocial.php"); ?>
+        <?php include("../../php/newSocial.php"); ?>
     </div>
     <script>
         const buttonsDiv = document.querySelectorAll('button.jeu');

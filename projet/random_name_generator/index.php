@@ -5,9 +5,9 @@
         <meta charset='utf-8'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Générateur de noms aléatoires</title>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <link rel="stylesheet" type="text/css" href="css/random_name_generator.css">
-        <?php include("../php/script.php"); ?>
+        <link rel="stylesheet" type="text/css" href="../css/_index.css">
+        <link rel="stylesheet" type="text/css" href="random_name_generator.css">
+        <?php include("../../php/script.php"); ?>
         <?php
         $bdd = mysqli_connect('localhost', 'didelofr_liliansoler', 'JiORPQLGq.Nk', 'didelofr_test');
         $random_req = "SELECT name FROM `random_name` ORDER BY RAND() LIMIT 1";
