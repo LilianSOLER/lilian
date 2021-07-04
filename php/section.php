@@ -13,7 +13,7 @@
             <p>Welcome to the website didelo.fr :</p>
             <p>Lilian Soler, I am a junior web developer focused on Back-End PHP</p>
             <p>I would put here some of my programming projects, as well as corrections of my school work</p>
-            <p>For any quote request, please contact this email address:<a href="mailto:liliansoler@didelo.fr">liliansoler@didelo.fr</a></p>
+            <p>For any quote request, please contact this email address: <a href="mailto:liliansoler@didelo.fr">liliansoler@didelo.fr</a></p>
         </article>
     </div>
 </section>
