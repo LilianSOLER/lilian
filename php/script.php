@@ -1,5 +1,5 @@
 <meta name="author" content="SOLER Lilian" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API = Tawk_API || {},
@@ -15,10 +15,6 @@
   })();
 </script>
 <!--End of Tawk.to Script-->
-
-<!-- jQuerry -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5714Y07X47"></script>

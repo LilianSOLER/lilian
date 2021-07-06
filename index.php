@@ -23,16 +23,6 @@
 	<ins data-zone="234867" class="byadthink"></ins>
 	<script type="text/javascript" async src="//ad.adxcore.com/adjs_r.php?async&what=zone:234867&inf=no"></script>
 
-
-
-	<p id="php"><?php include("php/ip.php"); ?></p>
-	<script>
-		setInterval('load_messages()', 1500);
-
-		function load_messages() {
-			$('#message').load('Php/footer.php');
-		}
-	</script>
 </body>
 
 </html>
