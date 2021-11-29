@@ -3,7 +3,7 @@
     <a href="https://<?php echo $ndd; ?>/lilian" class="logo">SOLER Lilian</a>
     <div class="header-right">
       <div class="topnav" id="myTopnav">
-        <a href="https://<?php echo $ndd; ?>" class="active">Accueil</a>
+        <a href="https://<?php echo $ndd; ?>/lilian" class="active">Accueil</a>
         <div class="dropdown">
           <button class="dropbtn">Correction PEIP 2
             <i class="fa fa-caret-down"></i>
