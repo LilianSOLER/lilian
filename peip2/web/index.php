@@ -7,7 +7,7 @@
     <title>Correction TD d'intro au web</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/_index.css">
-    <?php include("../php/script.php"); ?>
+    <?php include("../../php/script.php"); ?>
 </head>
 
 <body>
