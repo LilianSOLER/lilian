@@ -1,6 +1,6 @@
 <header>
   <div class="header">
-    <a href="https://<?php echo $ndd; ?>" class="logo">SOLER Lilian</a>
+    <a href="https://<?php echo $ndd; ?>/lilian" class="logo">SOLER Lilian</a>
     <div class="header-right">
       <div class="topnav" id="myTopnav">
         <a href="https://<?php echo $ndd; ?>" class="active">Accueil</a>
