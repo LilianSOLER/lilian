@@ -6,14 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Site de Lilian Soler</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<?php include("php/script.php"); ?>
+	<?php include("php/script.php")  ?>
 </head>
 
 <body>
 	<div class='tout'>
 		<?php include("php/newHeader.php"); ?>
 		<?php include("php/section.php"); ?>
-		<?php include("php/user_nbr_live.php"); ?>
+		<?php //include("php/user_nbr_live.php"); ?>
 		<p><a style='color:white;' href="https://paypal.me/LilianSoler?locale.x=fr_FR">Soutenir le créateur</a>
 		<p>
 	</div>
