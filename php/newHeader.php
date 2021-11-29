@@ -45,7 +45,7 @@
             <a title="Entrainement au code en PHP orienté objet" href="https://<?php echo $ndd; ?>/lilian/entrainement/_php_poo">PHP orienté objet</a>
             <a title="Entrainement au code en JavaScript" href="https://<?php echo $ndd; ?>/lilian/entrainement/_js/">JavaScript</a>
             <a title="Entrainement au Framework Bootstrap" href="https://<?php echo $ndd; ?>/lilian/entrainement/_bootstrap/">Bootstrap</a>
-            <a title="Différents projets d'entraînement" href="https://<?php echo $ndd; ?>/projet_lilian/">Diff&eacute;rents projets d'entraînement</a>
+            <a title="Différents projets d'entraînement" href="https://<?php echo $ndd; ?>/projet_web/">Diff&eacute;rents projets d'entraînement</a>
           </div>
         </div>
         <div class="dropdown">
