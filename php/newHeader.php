@@ -54,10 +54,10 @@
           </button>
           <div class="dropdown-content">
             <a title="Curriculum Vitae  long de SOLER Lilian" href="https://didelo.fr/lilian/media/image/cv.pdf">CV long </a>
-            <a title="Curriculum Vitae court de SOLER Lilian" href="https://liliansoler.didelo.fr">CV court</a>
+            <a title="Curriculum Vitae court de SOLER Lilian" href="https://vcard.didelo.fr">CV court</a>
           </div>
         </div>
-        <!-- <a title="Site d'Elisa Roux'" href="https://elisaroux.didelo.fr">Elisa ROUX</a> -->
+        <a title="Site de Noah SOLER'" href="https://noah.didelo.fr">Noah SOLER</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
       <script>

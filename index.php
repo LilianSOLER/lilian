@@ -13,7 +13,7 @@
 	<div class='tout'>
 		<?php include("php/newHeader.php"); ?>
 		<?php include("php/section.php"); ?>
-		<?php include("php/user_nbr_live.php"); ?>
+		<?php //include("php/user_nbr_live.php"); ?>
 		<p><a style='color:white;' href="https://paypal.me/LilianSoler?locale.x=fr_FR">Soutenir le créateur</a>
 		<p>
 	</div>

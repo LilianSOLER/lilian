@@ -46,7 +46,7 @@ a {
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
   .header a {
     float: none;
     display: block;
@@ -153,7 +153,7 @@ a {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
   .topnav.responsive {
     position: relative;
   }
@@ -275,7 +275,7 @@ body {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
   .tout {
     margin-left: 37px;
   }
@@ -347,7 +347,7 @@ body {
   grid-template-areas: "one . two" "three . four" "five . six";
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
   .grille {
     grid-template-areas: "one" "two" "three" "four" "five" "six";
   }

@@ -66,3 +66,48 @@ Stack trace:
 #0 /home/didelofr/public_html/Entrainement_php_poo/partie1/manipulation_donnee.php(201): PersonnagesManager->add(Object(Personnage))
 #1 {main}
   thrown in /home/didelofr/public_html/Entrainement_php_poo/partie1/manipulation_donnee.php on line 137
+[27-Dec-2021 09:46:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[27-Dec-2021 09:46:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[27-Dec-2021 10:13:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[27-Dec-2021 10:13:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[27-Dec-2021 10:51:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[27-Dec-2021 10:51:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[27-Dec-2021 17:21:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[27-Dec-2021 17:21:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210
+[11-Jan-2022 18:30:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'didelofr_admin'@'localhost' (using password: YES) in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php:210
+Stack trace:
+#0 /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php(210): PDO->__construct('mysql:host=loca...', 'didelofr_admin', '#qDUu!CYX}t]')
+#1 {main}
+  thrown in /home/didelofr/public_html/lilian/entrainement/_php_poo/partie1/manipulation_donnee.php on line 210

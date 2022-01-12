@@ -1,4 +1,12 @@
 <meta name="author" content="SOLER Lilian" />
+<meta name="description" content="Site de Lilian Soler" />
+<meta name="keywords" content="Lilian, Soler, Lilian Soler, Site, Site de Lilian Soler" />
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="language" content="fr" />
+<meta name="geo.placename" content="Lyon" />
+<meta name="geo.position" content="45.764043;4.835659" />
+<meta name="geo.region" content="FR-FR" />
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -33,3 +41,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://didelo.fr/lilian/media/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://didelo.fr/lilian/media/icons/favicon-16x16.png">
 <link rel="manifest" href="https://didelo.fr/lilian/site.webmanifest">
+
+  <link 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
