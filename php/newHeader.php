@@ -31,6 +31,7 @@
             <a title="Cours particuliers pour Amandine" href="https://didelo.fr/lilian/cours/cours_amandine.php">Amandine</a>
             <a title="Cours particuliers pour Salome" href="https://didelo.fr/lilian/cours/cours_salome.php">Salom&eacute;</a>
             <a title="Cours particuliers pour Slimane" href="https://didelo.fr/lilian/cours/cours_slimane.php">Slimane</a>
+            <a title="Cours particuliers pour Kevin" href="https://didelo.fr/lilian/cours/cours_kevin_j.php">Kevin</a>
             <a title="Ressources pour les cours particuliers" href="https://didelo.fr/lilian/cours/ressource.php">Ressources</a>
           </div>
         </div>
