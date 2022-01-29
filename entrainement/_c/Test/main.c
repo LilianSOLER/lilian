@@ -9,7 +9,8 @@
 
 int main(int argc, char *argv[])
 {
-  testAllSmallFunction();
-  testAllTableauFunctions();
+  //testAllSmallFunction();
+  //testAllTableauFunctions();
+  testList();
   return 0;
 }
