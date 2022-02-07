@@ -21,6 +21,7 @@
                 <ul class='sous-html'>
                     <li><a href=media/image/cours_24_01_kevin_j.pdf>Cours Nombre décimaux(après séance du 24/01)</a></li>
                     <li><a href=https://forms.gle/6iPu3JCByMBztR9t8>Exercise calcul nombre décimaux(après séance du 24/01)</a></li>
+                    <li><a href=media/image/cours_07_02_kevin_j.pdf>Cours Angle et Correction DS(après séance du 07/01)</a></li>
                 </ul>
             </ul>
         </div>
