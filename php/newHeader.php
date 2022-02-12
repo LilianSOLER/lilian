@@ -1,6 +1,6 @@
 <header>
   <div class="header">
-    <a href="https://didelo.fr" class="logo">SOLER Lilian</a>
+    <a href="https://didelo.fr" id ='typing' class="logo"></a>
     <div class="header-right">
       <div class="topnav" id="myTopnav">
         <a href="https://didelo.fr" class="active">Accueil</a>

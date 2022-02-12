@@ -1,6 +1,6 @@
 <meta name="author" content="SOLER Lilian" />
-<meta name="description" content="Site de Lilian Soler" />
-<meta name="keywords" content="Lilian, Soler, Lilian Soler, Site, Site de Lilian Soler" />
+<meta name="description" content="Site de Lilian Soler : étudiant en école d'ingénieur qui met en ligne ses projets de programmations et interface pour élèves en cours particuliers" />
+<meta name="keywords" content="Lilian, Soler, Lilian Soler, Site, Site de Lilian Soler, informatique, professeur, aide au devoir, mathématiques, developpeur, php, PHP, back-end, web, arduino, c, javascript, css, mongoDb, VueJs, NodeJs" />
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 days" />
 <meta name="language" content="fr" />
@@ -42,6 +42,10 @@
 <link rel="icon" type="image/png" sizes="16x16" href="https://didelo.fr/lilian/media/icons/favicon-16x16.png">
 <link rel="manifest" href="https://didelo.fr/lilian/site.webmanifest">
 
-  <link 
+<link 
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
   rel="stylesheet"  type='text/css'>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5714Y07X47"></script>
+
+<script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
