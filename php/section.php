@@ -12,7 +12,7 @@
         <article id="article2">
             <p>Welcome to the website didelo.fr :</p>
             <p>Lilian Soler, I am an engineering school student, Back-End oriented junior web developer, freelance professor in mathematics and computer science, and professor for Acadomia</p>
-            <p>here some of my programming projects, corrections of my school work but I use this site as a platform for my private lessons</p>
+            <p>I put here some of my programming projects, corrections of my school work but I use this site as a platform for my private lessons</p>
             <p>For any quote request or a private lesson, please contact this email address: <a href="mailto:lilian.soler@didelo.fr">lilian.soler@didelo.fr</a></p>
         </article>
     </div>
