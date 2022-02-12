@@ -21,7 +21,7 @@
                 <ul class='sous-html'>
                     <li><a href=media/image/1.pdf>Entrainement Fraction(après séance du 21/10)</a></li>
                     <li><a href=media/image/Exercise_Vecteur.pdf>Entrainement Vecteur (après séance du 25/11)</a></li>
-                    <li><a href=rendu_vecteur.php> Rendu Entrainement Vecteur (après séance du 25/11)</a></li>
+                    <li><a href=rendu_exercice.php> Rendu Entrainement Vecteur (après séance du 25/11)</a></li>
                 </ul>
 
             </ul>
