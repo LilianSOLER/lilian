@@ -24,7 +24,7 @@
                     <li><a href=media/image/cours_07_02_kevin_j.pdf>Cours Angle et Correction DS(après séance du 07/01)</a></li>
                     <li><a href="media/image/exo_operations_6">Exercice Opérations(après séance du 07/01)</a></li>
                     <li><a href="media/image/exo_mesure_angle_6.pdf"></a>Exercice mesure angle(après séance du 07/01)</li>
-                    <li><a href="rendu_exercice.php"></a>Rendu Des Exercices</li>
+                    <li><a href="rendu_exercice.php">Rendu Des Exercices</a></li>
                 </ul>
             </ul>
         </div>
