@@ -28,6 +28,7 @@
         </div>
 
         <?php include("../php/newSocial.php"); ?>
+        <?php include("../php/script_bottom.php"); ?>
     </div>
 </body>
 

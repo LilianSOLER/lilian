@@ -5,6 +5,7 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Correction TD Arduino</title>
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
     <link rel="stylesheet" type="text/css" href="css/_index.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <?php include("../../php/script.php"); ?>
@@ -55,10 +56,8 @@
         </div>
 
         <?php include("../../php/newSocial.php"); ?>
-        <!-- 728x90_btf  Leader board-->
-        <ins data-zone="234867" class="byadthink"></ins>
-        <script type="text/javascript" async src="//ad.adxcore.com/adjs_r.php?async&what=zone:234867&inf=no"></script>
-
+        <a href="https://paypal.me/LilianSoler?locale.x=fr_FR">...</a>
+		<?php include("../../php/script_bottom.php"); ?>
     </div>
 </body>
 

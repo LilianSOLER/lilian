@@ -103,15 +103,10 @@
 					</div>
 				</div>
 			</ul>
-			<?php include("../../php/user_nbr_live.php"); ?>
+			</div>
 			<a href="https://paypal.me/LilianSoler?locale.x=fr_FR">...</a>
-		</div>
-
-		<?php include("../../php/newSocial.php"); ?>
-		<!-- 728x90_btf  Leader board-->
-		<ins data-zone="234867" class="byadthink"></ins>
-		<script type="text/javascript" async src="//ad.adxcore.com/adjs_r.php?async&what=zone:234867&inf=no"></script>
-
+			<?php include("../../php/newSocial.php"); ?>
+			<?php include("../../php/script_bottom.php")?>
 	</div>
 </body>
 
