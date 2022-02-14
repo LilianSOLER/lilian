@@ -2,7 +2,7 @@
   <ins data-zone="234867" class="byadthink"></ins>
 		<script type="text/javascript" async src="//ad.adxcore.com/adjs_r.php?async&what=zone:234867&inf=no"></script>
 
-
+<script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
 <script src="https://didelo.fr/lilian/index.js"></script>
 
 <!--Start of Tawk.to Script-->
@@ -36,4 +36,3 @@
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5714Y07X47"></script>
 
-<script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
