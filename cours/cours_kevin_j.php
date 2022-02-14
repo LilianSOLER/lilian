@@ -25,9 +25,9 @@
                     <li><a href="media/image/exo_operations_6">Exercice Opérations(après séance du 07/02)</a></li>
                     <li><a href="media/image/exo_mesure_angle_6.pdf">Exercice mesure angle(après séance du 07/02)</a></li>
                     <li><a href="media/image/cours_14_02_kevin_j.pdf">Cours Opération(après séance du 14/02)</a></li>
-                    <li><a href="apprendre_table.php?tab=2">Table de multiplication(après séance du 14/02)</a></li>
-                    <li><a href="apprendre_table.php?tab=0">Table d'addition(après séance du 14/02)</a></li>
-                    <li><a href="apprendre_table.php?tab=1">Table de soustraction(après séance du 14/02)</a></li>
+                    <li><a href="apprendre_table.php?op=2">Table de multiplication(après séance du 14/02)</a></li>
+                    <li><a href="apprendre_table.php?op=0">Table d'addition(après séance du 14/02)</a></li>
+                    <li><a href="apprendre_table.php?op=1">Table de soustraction(après séance du 14/02)</a></li>
                     <li><a href="rendu_exercice.php">Rendu Des Exercices</a></li>
                 </ul>
             </ul>
