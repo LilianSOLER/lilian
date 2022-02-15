@@ -5,13 +5,14 @@
       <div class="topnav" id="myTopnav">
         <a href="https://didelo.fr" class="active">Accueil</a>
         <div class="dropdown">
-          <button class="dropbtn">Correction PEIP 2
+          <button class="dropbtn">PEIP 2, INFO3
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a title="Arduino: Programmes Divers et Corrections des TD" href="https://didelo.fr/lilian/peip2/arduino/">Arduino</a>
-            <a title="Introduction au Web (HTML et CSS) : Correcttions des TD" href="https://didelo.fr/lilian/peip2/web/">Intro au Web</a>
-            <a title="Applications du Web (PHP et JS) : Correcttions des TD" href="https://didelo.fr/lilian/peip2/applicationWeb/">Applications du Web</a>
+            <a title="Arduino: Programmes Divers et Corrections des TD" href="https://didelo.fr/lilian/peip2/arduino/">Arduino 3-4</a>
+            <a title="Introduction au Web (HTML et CSS) : Correcttions des TD" href="https://didelo.fr/lilian/peip2/web/">Intro au Web 3</a>
+            <a title="Applications du Web (PHP et JS) : Correcttions des TD" href="https://didelo.fr/lilian/peip2/applicationWeb/">Applications du Web 4</a>
+            <a title="Programmation Web - Données Ouvertes et Multimédia : Corrections des TD" href="https://didelo.fr/lilian/info3/pw6">Programmation Web 6</a>
           </div>
         </div>
         <div class="dropdown">
