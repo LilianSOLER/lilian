@@ -14,7 +14,7 @@
     <div class='tout'>
         <?php include("../../php/newHeader.php"); ?>
         <div class="html">
-            <h1>Correction TD de Programmation Web - Données Ouvertes et Multimédia : </h1>
+            <h1>Correction TD de Programmation Web : </h1>
             <ul>
                 <li>TD n°1 : Exercices PHP </li>
                 <ul class='sous-html'>
@@ -45,11 +45,9 @@
                 </ul>
             </ul>
         </div>
-
-        <?php include("../../php/newSocial.php"); ?>
-        <?php include("../../php/script_bottom.php"); ?>
-
     </div>
+    <?php include("../../php/newSocial.php"); ?>
+    <?php include("../../php/script_bottom.php"); ?>
 </body>
 
 </html>
