@@ -29,7 +29,7 @@
                     <li><a href="apprendre_table.php?op=0">Table d'addition(après séance du 14/02)</a></li>
                     <li><a href="apprendre_table.php?op=1">Table de soustraction(après séance du 14/02)</a></li>
                     <li><a href="media/image/astuce_28_02_kevin_j.pdf">Astuce pour gagner au jeux de la course(après séance du 28/02)</a></li>
-                    <li><a href="media/image/exo_operations_7">Exercice Opérations(après séance du 28/02)</a></li>
+                    <li><a href="media/image/exo_operations_7.pdf">Exercice Opérations(après séance du 28/02)</a></li>
                     <li><a href="rendu_exercice.php">Rendu Des Exercices</a></li>
                 </ul>
             </ul>
