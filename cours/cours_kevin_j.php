@@ -31,7 +31,7 @@
                     <li><a href="media/image/astuce_28_02_kevin_j.pdf">Astuce pour gagner au jeux de la course(après séance du 28/02)</a></li>
                     <li><a href="media/image/exo_operations_7.pdf">Exercice Opérations(après séance du 28/02)</a></li>
                     <li><a href="media/image/cours_07_03_kevin_j.pdf">Correction EX9 et Cours division Euclidienne(après séance du 07/03)</a></li>
-                    
+                    <br>
                     <li><a href="entrainement_op.php?op=plus">Entrainement opérations</a></li>
                     <li><a href="rendu_exercice.php">Rendu Des Exercices</a></li>
                 </ul>
