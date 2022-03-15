@@ -32,6 +32,7 @@
                     <li><a href="media/image/exo_operations_7.pdf">Exercice Opérations(après séance du 28/02)</a></li>
                     <li><a href="media/image/cours_07_03_kevin_j.pdf">Correction EX9 et Cours division Euclidienne(après séance du 07/03)</a></li>
                     <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDst6wYCwirF294u_OGsniviXvkSrK9TzOWB7V_-r0jhDnsA/viewform?usp=sf_link">Exercice division euclidienne(après séance du 07/03)</a></li>
+                    <li><a href="https://forms.gle/G62XeYoobRzySHzX8">Exercice division (après séance du 14/03)</a></li>
                     <br>
                     <li><a href="entrainement_op.php?op=plus">Entrainement opérations</a></li>
                     <li><a href="rendu_exercice.php">Rendu Des Exercices</a></li>
