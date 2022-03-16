@@ -19,7 +19,7 @@
             <ul>
                 <li>Mathématiques :</li>
                 <ul class='sous-html'>
-                    <li><a href=media/image/cours_24_01_kevin_j.pdf>Cours Nombre décimaux(après séance du 5/03)</a></li>
+                    <li><a href=media/image/cours_05_03_romain_b.pdf>Cours Nombre décimaux(après séance du 05/03)</a></li>
                 </ul>
             </ul>
         </div>
