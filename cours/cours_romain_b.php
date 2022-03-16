@@ -19,7 +19,8 @@
             <ul>
                 <li>Mathématiques :</li>
                 <ul class='sous-html'>
-                    <li><a href=media/image/cours_05_03_romain_b.pdf>Cours Nombre décimaux(après séance du 05/03)</a></li>
+                    <li><a href=media/image/cours_09_03_romain_b.pdf>Exo&Cours(après séance du 09/03)</a></li>
+                    <li><a href=media/image/cours_16_03_romain_b.pdf>Exo&Cours(après séance du 16/03)</a></li>
                 </ul>
             </ul>
         </div>
