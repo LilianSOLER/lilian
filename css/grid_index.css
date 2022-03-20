@@ -13,13 +13,21 @@
 	grid-area: 1 / 2 / 2 / 3;
 }
 .article2 {
-	grid-area: 3 / 2 / 4 / 3;;
+	grid-area: 3 / 2 / 4 / 3;
 }
 
-.div3 { grid-area: 2 / 2 / 3 / 3; }
-.div4 { grid-area: 4 / 2 / 5 / 3; }
-.div5 { grid-area: 5 / 2 / 6 / 3; }
+.div3 {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.div4 {
+	grid-area: 4 / 2 / 5 / 3;
+}
+.div5 {
+	grid-area: 5 / 2 / 6 / 3;
+}
 
 @media screen and (max-width: 850px) {
-  grid-template-columns: 1fr 10fr 1fr;
+	.section{
+    grid-template-columns: 1fr 10fr 1fr;
+  }
 }
