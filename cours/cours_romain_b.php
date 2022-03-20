@@ -7,6 +7,7 @@
     <title>Cours particuliers pour Romain</title>
     <link rel="stylesheet" type="text/css" href="css/_index.css">
     <link rel="stylesheet" type="text/css" href="css/cours.css">
+    <link rel="stylesheet" type="text/css" href="css/grid_cours.css">
     <?php include("../php/script.php"); ?>
 </head>
 
@@ -16,12 +17,14 @@
         <div class="html">
             <h1> Romain </h1>
 
-            <ul>
-                <li>Mathématiques :</li>
-                <ul class='sous-html'>
-                    <li><a href=media/image/cours_09_03_romain_b.pdf>Exo&Cours(après séance du 09/03)</a></li>
-                    <li><a href=media/image/cours_16_03_romain_b.pdf>Exo&Cours(après séance du 16/03)</a></li>
-                </ul>
+            <ul class="parent">
+                <div class="div1">
+                    <li>Mars :</li>
+                    <ul>
+                        <li><a href=media/image/cours_09_03_romain_b.pdf>09 - Exo&Cours</a></li>
+                        <li><a href=media/image/cours_16_03_romain_b.pdf>16 - Exo&Cours</a></li>
+                    </ul>
+                </div>
             </ul>
         </div>
 
