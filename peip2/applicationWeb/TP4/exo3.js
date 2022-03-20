@@ -57,7 +57,7 @@ function verification(){
 
     resultatId.style.visibility ='visible';
 
-    if (proposition == x*y){
+    if (proposition == x-y){
       valeurReponse += 'Bonne';
       changerCouleur("green");
     } 
