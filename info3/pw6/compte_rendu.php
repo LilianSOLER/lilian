@@ -13,8 +13,6 @@
   <?php
   require_once '../../php/php-markdown-lib/Michelf/Markdown.inc.php';
 
-  use Michelf\Markdown;
-
   $path = "../../../PW6"; //path production
   // $path = "../../../INFO3/S6/PW6"; //path local
 
@@ -33,7 +31,10 @@
       break;
   }
 
-  echo Markdown::defaultTransform(file_get_contents($path));
+  $txt = file_get_contents($path);
+  echo $txt;
+  $html = \Michelf\Markdown::defaultTransform($txt);
+  echo $html;
   ?>
 </body>
 
