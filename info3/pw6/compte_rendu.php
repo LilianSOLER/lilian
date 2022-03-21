@@ -30,6 +30,7 @@
       break;
   }
 
+  echo $path;
   echo Markdown::defaultTransform(file_get_contents($path));
   ?>
 </body>
