@@ -14,7 +14,7 @@
   require_once '../../php/php-markdown-lib/Michelf/Markdown.inc.php';
   use Michelf\Markdown;
 
-  $path = "../../../INFO3/S6/PW6";
+  $path = "../../..//PW6";
   if(!isset($_GET["tp"])){
     $_GET["tp"] = "1";
   }
