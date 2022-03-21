@@ -30,7 +30,7 @@
       $path .= "/2-Pittion/Exercices/TP1/compte-rendu.md";
       break;
   }
-
+  echo $path;
   $txt = file_get_contents($path);
   echo $txt;
   // $html = \Michelf\Markdown::defaultTransform($txt);
