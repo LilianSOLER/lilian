@@ -33,8 +33,8 @@
 
   $txt = file_get_contents($path);
   echo $txt;
-  $html = \Michelf\Markdown::defaultTransform($txt);
-  echo $html;
+  // $html = \Michelf\Markdown::defaultTransform($txt);
+  // echo $html;
   ?>
 </body>
 
