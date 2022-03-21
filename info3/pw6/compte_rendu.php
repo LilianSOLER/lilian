@@ -31,8 +31,8 @@
       break;
   }
   echo $path;
-  $txt = file_get_contents($path);
-  echo $txt;
+  // $txt = file_get_contents($path);
+  // echo $txt;
   // $html = \Michelf\Markdown::defaultTransform($txt);
   // echo $html;
   ?>
