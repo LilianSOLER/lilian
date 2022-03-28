@@ -42,6 +42,7 @@
                         <li><a href="media/image/cours_07_03_kevin_j.pdf">07 - Correction EX9 et Cours division Euclidienne</a></li>
                         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDst6wYCwirF294u_OGsniviXvkSrK9TzOWB7V_-r0jhDnsA/viewform?usp=sf_link">07 - Exercice division euclidienne</a></li>
                         <li><a href="https://forms.gle/G62XeYoobRzySHzX8">14- Exercice division</a></li>
+                        <li><a href="media/image/cours_28_03_kevin_j.pdf">28 - Cours & Exo Polygones/Triangle</a></li>
                     </ul>
                 </div>
                 <div class="div_footer">
