@@ -25,6 +25,7 @@
                         <li><a href=media/image/cours_16_03_romain_b.pdf>16 - Exo&Cours</a></li>
                         <li><a href=media/image/cours_23_03_romain_b.pdf>23 - Exo&Cours - Brevet 2019</a></li>
                         <li><a href="media/image/sujet-brevet-mathematiques-2019_fiche-annale.pdf">Sujet Brevet 2019</a></li>
+                        <li><a href=media/image/cours_30_03_romain_b.pdf>30 - Exo & Cours - Proba</a></li>
                     </ul>
                 </div>
             </ul>
