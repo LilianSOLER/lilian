@@ -21,7 +21,11 @@
                 <div class="div1">
                     <li>Mars :</li>
                     <ul>
-                        <li><a href=media/image/cours_24_03_zoe_b.pdf>09 - Exo&Cours</a></li>
+                        <li><a href=media/image/cours_24_03_zoe_b.pdf>24 - Exo&Cours - Proba</a></li>
+                        <li><a href=media/image/cours_31_03_zoe_b.pdf>31 - Exo - Proba</a></li>
+                        <li><a href="media/image/exo-proba-meetinclass.pdf">31 - Fiche exo 1</a></li>
+                        <li><a href="media/image/exo-proba-acadomia-1.pdf">31 - Fiche exo 2</a></li>
+                        <li><a href="rendu_exercice.php">Rendu Des Exercices</a></li>
                     </ul>
                 </div>
             </ul>

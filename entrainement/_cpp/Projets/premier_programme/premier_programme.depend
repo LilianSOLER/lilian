@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1643538267 source:/home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/main.cpp
+	<iostream>
+	"math.h"
+	"smallFunction.h"
+	"tableau.h"
+
+1643480659 source:/home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/calculatrice.cpp
+	<iostream>
+
+1643538096 source:/home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/math.cpp
+	<iostream>
+	<cmath>
+	"math.h"
+
+1643538123 source:/home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/smallFunction.cpp
+	<iostream>
+	"smallFunction.h"
+
+1643537778 /home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/math.h
+
+1643537879 /home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/smallFunction.h
+
+1643542703 /home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/tableau.h
+	<vector>
+
+1643539544 source:/home/lilian/Desktop/Dossier_Git/lilian/entrainement/_cpp/Projets/premier_programme/tableau.cpp
+	<iostream>
+	<string>
+	"tableau.h"
+
