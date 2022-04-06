@@ -7,7 +7,7 @@
     <title>Cours particuliers pour Kevin</title>
     <link rel="stylesheet" type="text/css" href="css/_index.css">
     <link rel="stylesheet" type="text/css" href="css/cours.css">
-    <link rel="stylesheet" type="text/css" href="css/grid_cours.css">
+    <link rel="stylesheet" type="text/css" href="css/grid_cours_kevin.css">
     <?php include("../php/script.php"); ?>
 </head>
 
@@ -43,6 +43,12 @@
                         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDst6wYCwirF294u_OGsniviXvkSrK9TzOWB7V_-r0jhDnsA/viewform?usp=sf_link">07 - Exercice division euclidienne</a></li>
                         <li><a href="https://forms.gle/G62XeYoobRzySHzX8">14- Exercice division</a></li>
                         <li><a href="media/image/cours_28_03_kevin_j.pdf">28 - Cours & Exo Polygones/Triangle</a></li>
+                    </ul>
+                </div>
+                <div class="div4">
+                    <li>Avril :</li>
+                    <ul>
+                        <li><a href="https://forms.gle/YMjCnpWGPEJjfBwA9">04 - Exo Division / Polygones</a></li>
                     </ul>
                 </div>
                 <div class="div_footer">
