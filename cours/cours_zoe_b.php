@@ -7,7 +7,7 @@
     <title>Cours particuliers pour Zoé</title>
     <link rel="stylesheet" type="text/css" href="css/_index.css">
     <link rel="stylesheet" type="text/css" href="css/cours.css">
-    <link rel="stylesheet" type="text/css" href="css/grid_cours.css">
+    <link rel="stylesheet" type="text/css" href="css/grid_cours_zoe.css">
     <?php include("../php/script.php"); ?>
 </head>
 
