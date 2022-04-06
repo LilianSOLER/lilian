@@ -28,6 +28,12 @@
                         <li><a href=media/image/cours_30_03_romain_b.pdf>30 - Exo & Cours - Proba</a></li>
                     </ul>
                 </div>
+                <div class="div2">
+                    <li>Avril :</li>
+                    <ul>
+                        <li><a href=media/image/cours_06_04_romain_b.pdf>06 - Exo&Cours - Trigo - Semblable - Facto</a></li>
+                    </ul>
+                </div>
             </ul>
         </div>
 
