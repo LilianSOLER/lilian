@@ -28,6 +28,15 @@
                         <li><a href="rendu_exercice.php">Rendu Des Exercices</a></li>
                     </ul>
                 </div>
+                <div class="div2">
+                    <li>Avril :</li>
+                    <ul>
+                        <li><a href=media/image/cours_07_04_zoe_b.pdf>7 - Exo&Cours - Equations</a></li>
+                        <li><a href="media/image/exo-facto-equation-acadomia-f4.pdf">7 - Exo Equations Acadomia Feuille 4</a></li>
+                        <li><a href="media/image/exo-facto-equation-acadomia-f5.pdf">7 - Exo Equations Acadomia Feuille 5</a></li>
+                        <li><a href="media/image/exo-facto-equation-acadomia-f6.pdf">7 - Exo Equations Acadomia Feuille 6</a></li>
+                    </ul>
+                </div>
             </ul>
         </div>
 
