@@ -1,5 +1,16 @@
 <?php
-$student = isset($_GET['student']) ? $_GET['student'] : 'kevin_j';
+if(isset($_GET['student'])){
+  switch($_GET['student']){
+    case "romain_b":
+      $student = $_GET['student'];
+      break;
+    case "zoe_b":
+      $student = $_GET['student'];
+      break;
+    default:
+      $student = "kevin_j";
+  }
+}
 ?>
 <!doctype html>
 <html lang="fr">
@@ -18,7 +29,7 @@ $student = isset($_GET['student']) ? $_GET['student'] : 'kevin_j';
   <div class='tout'>
     <?php include("../../../php/newHeader.php"); ?>
     <div class="html" id="app">
-      <h1> {{ name }} </h1>
+      <h1>{{ classe }} - {{ name }}</h1>
       <ul class="parent">
         <div v-for="month in cours">
           <li>{{ month.name }}</li>
@@ -45,7 +56,9 @@ $student = isset($_GET['student']) ? $_GET['student'] : 'kevin_j';
     <?php include("../../../php/script_bottom.php"); ?>
 
     <script src="https://unpkg.com/vue@3"></script>
-    <script src="./app_<?php echo $student ;?>.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/info_<?php echo $student;?>.js"></script>
+    <script src="./app.js"></script>
   </div>
 </body>
 

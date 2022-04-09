@@ -5,9 +5,13 @@ body {
 .parent {
 	width: 80vw;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 1vh 5vw;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 2vh 5vw;
 	margin-bottom: 2vh;
+}
+
+.parent div li{
+	width: max-content;
 }
 
 h1 {
