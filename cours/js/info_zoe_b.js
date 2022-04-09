@@ -33,7 +33,7 @@ const studentInfo = {
 			{
 				day: 7,
 				title: "Exo&Cours - Equations",
-				link: "#",
+				link: "media/image/cours_07_04_zoe_b.pdf",
 			},
 			{
 				day: 7,
