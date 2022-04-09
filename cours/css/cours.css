@@ -1,6 +1,8 @@
-
+body {
+  min-width: 500px;
+}
 .html{
-    min-width:max-content;
+    overflow: hidden;
     width: max-content;
     margin : auto ;
     margin-top : 10px;
