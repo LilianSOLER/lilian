@@ -10,6 +10,8 @@ if(isset($_GET['student'])){
     default:
       $student = "kevin_j";
   }
+} else {
+  $student = "kevin_j";
 }
 ?>
 <!doctype html>
@@ -22,12 +24,12 @@ if(isset($_GET['student'])){
   <link rel="stylesheet" type="text/css" href="css/_index.css">
   <link rel="stylesheet" type="text/css" href="css/cours.css">
   <link rel="stylesheet" type="text/css" href="css/grid_cours.css">
-  <?php include("../../../php/script.php"); ?>
+  <?php include("../php/script.php"); ?>
 </head>
 
 <body>
   <div class='tout'>
-    <?php include("../../../php/newHeader.php"); ?>
+    <?php include("../php/newHeader.php"); ?>
     <div class="html" id="app">
       <h1>{{ classe }} - {{ name }}</h1>
       <ul class="parent">
@@ -52,8 +54,8 @@ if(isset($_GET['student'])){
       </ul>
     </div>
 
-    <?php include("../../../php/newSocial.php"); ?>
-    <?php include("../../../php/script_bottom.php"); ?>
+    <?php include("../php/newSocial.php"); ?>
+    <?php include("../php/script_bottom.php"); ?>
 
     <script src="https://unpkg.com/vue@3"></script>
     <script src="./js/utils.js"></script>
