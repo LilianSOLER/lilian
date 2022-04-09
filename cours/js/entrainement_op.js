@@ -6,7 +6,10 @@ var y; // le deuxième nombre de la multiplication
 // si 'verifier' est 'true' alors le prochain clic sur le bouton
 // est destiné à vérifier la réponse de l'utilisateur, sinon,
 // le clic est destiné à proposer une nouvelle multiplication
-var verifier = true; 
+var verifier = true;
+
+
+let max = 10;
 
 // génére une nouvelle multiplication, autrement dit :
 // - génère deux entiers au hasard dans l'intervalle [1,9]
@@ -18,8 +21,8 @@ function nouvelle() {
   let resultatId = document.getElementById('resultat');
   let propositionId = document.getElementById('proposition');
     
-  x = Math.floor((Math.random() * 10) + 1);
-  y = Math.floor((Math.random() * 10) + 1);
+  x = Math.floor((Math.random() * max) + 1);
+  y = Math.floor((Math.random() * max) + 1);
 
   nombre1Id.innerHTML = x;
   nombre2Id.innerHTML = y;
@@ -99,6 +102,24 @@ function valider(op) {
   }
   else{
     nouvelle();    
+  }
+}
+
+function changeOp() {
+  var op = prompt("Entrez l'opération souhaitée (plus pour addition, moins pour soustraction, fois pour multiplication)");
+  if (op == "plus" || op == "moins" || op == "fois") {
+      window.location.href = "entrainement_op.php?op=" + op;
+  } else {
+      alert("Opération non reconnue");
+  }
+}
+
+function changeMax() {
+  let maxUser = prompt("Entrez le nombre maximum souhaité");
+  if (maxUser > 0) {
+      max = Number(maxUser);
+  } else {
+      alert("Nombre non reconnu");
   }
 }
 
