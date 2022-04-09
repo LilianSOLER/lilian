@@ -1,21 +1,24 @@
+<?php
+$student = isset($_GET['student']) ? $_GET['student'] : 'kevin_j';
+?>
 <!doctype html>
 <html lang="fr">
 
 <head>
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cours particuliers pour Kevin</title>
+  <title>Cours particuliers pour <?php echo $student ;?></title>
   <link rel="stylesheet" type="text/css" href="css/_index.css">
   <link rel="stylesheet" type="text/css" href="css/cours.css">
-  <link rel="stylesheet" type="text/css" href="css/grid_cours_kevin.css">
-  <?php include("../../../../php/script.php"); ?>
+  <link rel="stylesheet" type="text/css" href="css/grid_cours.css">
+  <?php include("../../../php/script.php"); ?>
 </head>
 
 <body>
   <div class='tout'>
-    <?php include("../../../../php/newHeader.php"); ?>
+    <?php include("../../../php/newHeader.php"); ?>
     <div class="html" id="app">
-      <h1> Kevin </h1>
+      <h1> {{ name }} </h1>
       <ul class="parent">
         <div v-for="month in cours">
           <li>{{ month.name }}</li>
@@ -38,11 +41,11 @@
       </ul>
     </div>
 
-    <?php include("../../../../php/newSocial.php"); ?>
-    <?php include("../../../../php/script_bottom.php"); ?>
+    <?php include("../../../php/newSocial.php"); ?>
+    <?php include("../../../php/script_bottom.php"); ?>
 
     <script src="https://unpkg.com/vue@3"></script>
-    <script src="./app.js"></script>
+    <script src="./app_<?php echo $student ;?>.js"></script>
   </div>
 </body>
 
