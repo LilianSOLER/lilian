@@ -192,6 +192,8 @@ body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  margin-left: -5vw;
+  margin-right: 1vw;
 }
 
 /* Style the icon bar links */
@@ -243,7 +245,7 @@ body {
 }
 
 .tout {
-  margin-left: 75px;
+  margin-left: 5vw;
 }
 
 .html {
@@ -276,45 +278,9 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  .tout {
-    margin-left: 37px;
-  }
   .icon-bar a {
     padding: 8px;
     font-size: 10px;
   }
 }
-#php {
-  display: none;
-}
-
-/* Section
-
-#conteneur2 {
-  display: flex;
-
-  align-items: baseline;
-}
-
-#article1 {
-  border-right: 2px antiquewhite;
-}
-#article2 {
-  border-top: 2px antiquewhite double;
-  border-right: 2px;
-}
-
-#section1 {
-  display: flex;
-
-  flex: 1;
-
-  flex-direction: column;
-
-  justify-content: space-between;
-
-  align-items: center;
-
-  text-align: center;
-} */
 
