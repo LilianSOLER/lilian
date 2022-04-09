@@ -1,6 +1,6 @@
 <?php
-if(isset($_GET['student'])){
-  switch($_GET['student']){
+if (isset($_GET['student'])) {
+  switch ($_GET['student']) {
     case "romain_b":
       $student = $_GET['student'];
       break;
@@ -20,7 +20,7 @@ if(isset($_GET['student'])){
 <head>
   <meta charset='utf-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cours particuliers pour <?php echo $student ;?></title>
+  <title>Cours particuliers pour <?php echo $student; ?></title>
   <link rel="stylesheet" type="text/css" href="css/_index.css">
   <link rel="stylesheet" type="text/css" href="css/cours.css">
   <link rel="stylesheet" type="text/css" href="css/grid_cours.css">
@@ -53,15 +53,16 @@ if(isset($_GET['student'])){
         </div>
       </ul>
     </div>
-
-    <?php include("../php/newSocial.php"); ?>
-    <?php include("../php/script_bottom.php"); ?>
-
-    <script src="https://unpkg.com/vue@3"></script>
-    <script src="./js/utils.js"></script>
-    <script src="./js/info_<?php echo $student;?>.js"></script>
-    <script src="./js/app_cours.js"></script>
   </div>
+
+  <?php include("../php/newSocial.php"); ?>
+  <?php include("../php/script_bottom.php"); ?>
+
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/info_<?php echo $student; ?>.js"></script>
+  <script src="./js/app_cours.js"></script>
+
 </body>
 
 </html>
