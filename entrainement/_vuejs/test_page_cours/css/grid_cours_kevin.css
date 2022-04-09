@@ -1,0 +1,19 @@
+body {
+	min-width: 400px;
+}
+
+.parent {
+	width: 80vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 1vh 5vw;
+	margin-bottom: 2vh;
+}
+
+h1 {
+	text-align: center;
+}
+
+.html {
+	margin-top: 10%;
+}
