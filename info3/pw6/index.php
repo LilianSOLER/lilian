@@ -53,6 +53,12 @@
                             <li><a href="../../../PW6/2-Pittion/Exercices/TP1/ex.html">Exercice 3</a></li>
                             <li><a href="https://github.com/LilianSOLER/PW6/archive/refs/heads/master.zip">Télécharger le dossier</a></li>
                         </ul>
+                    <li>Pittion - TD n°1 : JS, TS, Framework JS</li>
+                    <ul class="sous-html">
+                        <li><a href="compte_rendu.php?tp=2&prof=pittion">Compte Rendu</a></li>
+                        <li><a href="../../../PW6/2-Pittion/Exercices/TP2/todo-list-vue_without_webpack">TodoAPP Vue Js</a></li>
+                        <li><a href="https://github.com/LilianSOLER/PW6/archive/refs/heads/master.zip">Télécharger le dossier</a></li>
+                    </ul>
                 </div>
             </ul>
         </div>
