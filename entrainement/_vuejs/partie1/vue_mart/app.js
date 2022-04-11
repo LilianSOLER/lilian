@@ -5,7 +5,7 @@ const app = Vue.createApp({
 			groceries: [
 				{ name: "Apples", price: 2 },
 				{ name: "Bananas", price: 3 },
-				{ name: "Oranges", price: 4 },
+				{ name: "Oranges", price: 0 },
 				{ name: "Pears", price: 5 },
 				{ name: "Lemons", price: 6 },
 				{ name: "Limes", price: 7 },
