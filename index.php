@@ -7,6 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Site de Lilian Soler</title>
 	<?php require_once 'php/meta-info.php'; ?>
+	<!-- Vue -->
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="https://unpkg.com/vue-router"></script>
 	<link rel="stylesheet" href="./css/theme.css" />
 </head>
 

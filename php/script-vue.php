@@ -1,8 +1,3 @@
-<!-- Vue -->
-
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script src="https://unpkg.com/vue-router"></script>
-
 <!-- Vue Template -->
 <script type="module" src="template/home-template.mjs"></script>
 <script type="module" src="template/school-template.mjs"></script>
