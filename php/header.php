@@ -1,6 +1,6 @@
 <header>
   <div class="header">
-    <a href="https://didelo.fr" id='typing' class="logo"></a>
+  <router-link class="nav-link" to="/" id='typing' class="logo"></router-link>
     <div class="header-right">
       <div class="topnav" id="myTopnav">
         <div class="dropdown">
