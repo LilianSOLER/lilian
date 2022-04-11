@@ -1,6 +1,6 @@
 <!-- Typed Logo -->
 <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
-<script type="module" src="js/typed-logo.mjs"></script>
+<script src="js/typed-logo.js"></script>
 
 <!-- Navbar -->
 <script src="js/top-nav.js"></script>
