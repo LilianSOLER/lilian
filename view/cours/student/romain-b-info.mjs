@@ -40,6 +40,21 @@ const romainBInfo = {
 					title: "Exo&Cours - Trigo - Semblable - Factorisation",
 					link: "cours/romain-b/06-04-romain-b.pdf",
 				},
+				{
+					day: "13",
+					title: "Exo&Cours - Proba",
+					link: "cours/romain-b/13-04-romain-b.pdf",
+				},
+				{
+					day: "13",
+					title: "Sujet Brevet 2021 - Polynésie",
+					link: "cours/romain-b/brevet-polynesie-2021.pdf",
+				},
+				{
+					day: "13",
+					title: "Sujet Brevet 2021 - Centres Etrangers",
+					link: "cours/romain-b/brevet-centres-etrangers-2021.pdf",
+				},
 			],
 		},
 	],

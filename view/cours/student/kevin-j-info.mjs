@@ -90,6 +90,11 @@ const kevinJInfo = {
 					title: "Cours & Exo Priorité d'opération - Unité de temps",
 					link: "cours/kevin-j/11-04-kevin-j.pdf",
 				},
+				{
+					day: "11",
+					title: "Exercice vacances",
+					link: "https://forms.gle/ZAHTtg45oRxWX6kS7",
+				}
 			],
 		},
 	],

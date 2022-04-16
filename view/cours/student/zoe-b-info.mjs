@@ -50,6 +50,21 @@ const zoeBInfo = {
 					title: "Exo Equations Acadomia Feuille 6",
 					link: "cours/zoe-b/exo-facto-equation-acadomia-f6.pdf",
 				},
+				{
+					day: "14",
+					title: "Exo&Cours - Inéquations",
+					link: "cours/zoe-b/14-04-zoe-b.pdf",
+				},
+				{
+					day: "14",
+					title: "Sujet Brevet 2021 - Polynésie",
+					link: "cours/zoe-b/brevet-polynesie-2021.pdf",
+				},
+				{
+					day: "14",
+					title: "Sujet Brevet 2021 - Centres Etrangers",
+					link: "cours/zoe-b/brevet-centres-etrangers-2021.pdf",
+				},
 			],
 		},
 	],
