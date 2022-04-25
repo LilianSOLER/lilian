@@ -94,6 +94,11 @@ const kevinJInfo = {
 					day: "11",
 					title: "Exercice vacances",
 					link: "https://forms.gle/ZAHTtg45oRxWX6kS7",
+				},
+				{
+					day: "25",
+					title: "Correction Exercice vacances",
+					link: "cours/kevin-j/25-04-kevin-j.pdf",
 				}
 			],
 		},
