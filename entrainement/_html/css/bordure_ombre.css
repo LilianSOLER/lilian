@@ -1,5 +1,0 @@
-h1{
-    border: 3px blue double; /*Bordure de 3px, bleu avec un trait double*/
-    border-radius: 20px;
-    box-shadow: 6px 6px 6px black; /* décalage horizontale, verticale, l'adoucissement du dégradé et couleur, possible aussi sur du texte*/
-}
