@@ -2,3 +2,5 @@
 error_log
 ads.txt
 php/configDb.php
+node_modules
+
