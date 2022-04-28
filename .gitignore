@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 node_modules
 
@@ -20,3 +21,11 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+=======
+*/error_log
+error_log
+ads.txt
+php/configDb.php
+node_modules
+
+>>>>>>> 36e5c400 (Mise en ligne du cours de Zoé sans ajout dans bdd)
