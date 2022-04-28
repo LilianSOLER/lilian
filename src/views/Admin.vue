@@ -189,13 +189,12 @@ export default defineComponent({
 					{
 						name: document.querySelector("select")?.value,
 						month: this.month,
-						lessons: [
+						lessons: 
 							{
 								day: this.day,
 								title: this.title,
 								link: this.link,
 							},
-						],
 					},
 					{
 						headers: {
@@ -213,6 +212,7 @@ export default defineComponent({
 				})
 				.catch((error: Error) => {
 					console.log(error);
+					alert("Erreur !");
 				});
 		},
 		submitDeleteStudent(e: Event): void {
