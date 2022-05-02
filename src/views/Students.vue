@@ -10,7 +10,11 @@
 							v-for="(lesson, index2) in cours?.lessons"
 							:key="'lesson-' + index2"
 						>
-							<a :href="'/' + lesson.link"
+							<a v-if="lesson.link.match('cours')" :href="'/' + lesson.link"
+								><span v-if="lesson.day != '-1'">{{ lesson.day }} - </span
+								>{{ lesson.title }}</a
+							>
+							<a v-else :href="lesson.link"
 								><span v-if="lesson.day != '-1'">{{ lesson.day }} - </span
 								>{{ lesson.title }}</a
 							>
@@ -22,7 +26,7 @@
 					<ul>
 						<div v-for="(util, index3) in utils" :key="'util-' + index3">
 							<li>
-								<a :href="'/' + util.link">{{ util.title }}</a>
+								<a :href= "util.link">{{ util.title }}</a>
 							</li>
 						</div>
 					</ul>
@@ -107,6 +111,15 @@ export default defineComponent({
 				.then((response: AxiosResponse<{ student: Student }>) => {
 					this.student = response.data.student;
 					this.student.name = this.capitalize(this.student.name);
+					this.student.cours.forEach(month => {
+						month.lessons.forEach(lesson => {
+							if(lesson.link.match("cours")){
+								// lesson.link = lesson.link.replace("cours", "/cours");
+								console.log(lesson.link);
+							}
+						})						
+					});
+					console.log(this.student);
 				});
 		},
 		loadUtils(): void {
