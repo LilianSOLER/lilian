@@ -26,7 +26,7 @@
 					<ul>
 						<div v-for="(util, index3) in utils" :key="'util-' + index3">
 							<li>
-								<a :href= "util.link">{{ util.title }}</a>
+								<a :href="util.link">{{ util.title }}</a>
 							</li>
 						</div>
 					</ul>
@@ -38,7 +38,8 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import axios, { AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
+import _axios from '@/plugins/axios';
 
 interface Student {
 	_id: string;
@@ -104,27 +105,26 @@ export default defineComponent({
 			return str.charAt(0).toUpperCase() + str.slice(1);
 		},
 		loadStudent(): void {
-			axios
+			_axios
 				.get(
-					`https://sheltered-basin-99154.herokuapp.com/api/student/${this.name}`
+					`student/${this.name}`
 				)
 				.then((response: AxiosResponse<{ student: Student }>) => {
 					this.student = response.data.student;
 					this.student.name = this.capitalize(this.student.name);
-					this.student.cours.forEach(month => {
-						month.lessons.forEach(lesson => {
-							if(lesson.link.match("cours")){
-								// lesson.link = lesson.link.replace("cours", "/cours");
-								console.log(lesson.link);
-							}
-						})						
-					});
-					console.log(this.student);
+					// this.student.cours.forEach(month => {
+					// 	month.lessons.forEach(lesson => {
+					// 		if(lesson.link.match("cours")){
+					// 			// lesson.link = lesson.link.replace("cours", "/cours");
+					// 			console.log(lesson.link);
+					// 		}
+					// })
 				});
+			console.log(this.student);
 		},
 		loadUtils(): void {
-			axios
-				.get(`https://sheltered-basin-99154.herokuapp.com/api/studentUtils`)
+			_axios
+				.get(`studentUtils`)
 				.then((response: AxiosResponse<Util[]>) => {
 					this.utils = response.data;
 				});

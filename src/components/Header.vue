@@ -36,7 +36,7 @@
 								:to=studentRoad(studentName)
 								:key="studentName"
 							>
-								{{ studentName }}</router-link
+								{{ capitalize(studentName) }}</router-link
 							>
 						</div>
 					</div>
@@ -152,6 +152,12 @@ export default defineComponent({
 		},
 		studentRoad(studentName: string) {
 			return `/cours/student/${studentName}`;
+		},
+		capitalize(str: string): string {
+			if (str == "") return "";
+			if (str.length === 1) return str.toUpperCase();
+			str = str.replaceAll("-", " ");
+			return str.charAt(0).toUpperCase() + str.slice(1);
 		},
 	},
 	mounted() {
