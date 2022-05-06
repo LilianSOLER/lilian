@@ -18,7 +18,9 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import axios, { AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
+import _axios from '@/plugins/axios';
+
 
 interface Article {
 	paragraphs: [
@@ -40,8 +42,8 @@ export default defineComponent({
 		};
 	},
 	mounted() {
-		axios
-			.get("https://sheltered-basin-99154.herokuapp.com/api/home")
+		_axios
+			.get("home")
 			.then((res: AxiosResponse<Article[]>) => {
 				this.articles = res.data;
 			})
