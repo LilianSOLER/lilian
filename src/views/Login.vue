@@ -31,7 +31,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import axios, {AxiosResponse} from "axios";
+import {AxiosResponse} from "axios";
+import _axios from "@/plugins/axios";
 
 
 interface DataComponent {
@@ -50,8 +51,8 @@ export default defineComponent({
 	methods: {
 		submitForm(event: Event) {
 			event.preventDefault();
-			axios
-				.post("https://sheltered-basin-99154.herokuapp.com/api/user/login", {
+			_axios
+				.post("user/login", {
 					email: this.email,
 					password: this.password,
 				})

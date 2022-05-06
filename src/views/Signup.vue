@@ -41,7 +41,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import axios, { AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
+import _axios from "@/plugins/axios";
 
 interface DataComponent {
 	email: string;
@@ -61,8 +62,8 @@ export default defineComponent({
 	methods: {
 		submitForm(event: Event) {
 			event.preventDefault();
-			axios
-				.post("https://sheltered-basin-99154.herokuapp.com/api/user/signup", {
+			_axios
+				.post("user/signup", {
 					email: this.email,
 					password: this.password,
 					admin_password: this.admin_password,
