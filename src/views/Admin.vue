@@ -76,7 +76,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import axios, { AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
+import _axios from "@/plugins/axios";
 
 interface Student {
 	_id: string;
@@ -123,10 +124,31 @@ export default defineComponent({
 		};
 	},
 	methods: {
+		verify(): void {
+			if (localStorage.getItem("token") === null) {
+				alert("Vous n'êtes pas connecté");
+				setTimeout(() => {
+					window.location.href = "/login";
+				}, 5000);
+				return;
+			}
+			if (localStorage.getItem("expires_at") != null) {
+				if (
+					new Date(localStorage.getItem("expires_at") as string) < new Date()
+				) {
+					alert("Votre session a expiré");
+					setTimeout(() => {
+						window.location.href = "/login";
+					}, 5000);
+					return;
+				}
+			}
+		},
 		loadStudentsName(): void {
+			this.verify();
 			this.studentsName = [];
-			axios
-				.get("https://sheltered-basin-99154.herokuapp.com/api/student/")
+			_axios
+				.get("student")
 				.then(
 					(
 						response: AxiosResponse<{ message: string; students: Student[] }>
@@ -141,60 +163,41 @@ export default defineComponent({
 		},
 		submitCreateStudent(e: Event): void {
 			e.preventDefault();
-			if (localStorage.getItem("token") === null) {
-				alert("Vous n'êtes pas connecté");
-				setTimeout(() => {
-					window.location.href = "/login";
-				}, 5000);
-				return;
-			} else if (localStorage.getItem("expires_at") != null) {
-				if (
-					new Date(localStorage.getItem("expires_at") as string) < new Date()
-				) {
-					alert("Votre session a expiré");
-					setTimeout(() => {
-						window.location.href = "/login";
-					}, 5000);
-					return;
-				} else {
-					axios
-						.post(
-							"https://sheltered-basin-99154.herokuapp.com/api/student",
-							{ name: this.student, class: this.classe },
-							{
-								headers: {
-									Authorization: `Bearer ${localStorage.getItem("token")}`,
-								},
-							}
-						)
-						.then((response: AxiosResponse) => {
-							console.log(response);
-							alert("Ajouté !");
-							this.loadStudentsName();
-						})
-						.catch((error: Error) => {
-							alert("Erreur !");
-							console.log(error);
-						});
-				}
-			} else {
-				alert("Erreur !");
-			}
+			this.verify();
+			_axios
+				.post(
+					"student",
+					{ name: this.student, class: this.classe },
+					{
+						headers: {
+							Authorization: `Bearer ${localStorage.getItem("token")}`,
+						},
+					}
+				)
+				.then((response: AxiosResponse) => {
+					console.log(response);
+					alert("Ajouté !");
+					this.loadStudentsName();
+				})
+				.catch((error: Error) => {
+					alert("Erreur !");
+					console.log(error);
+				});
 		},
 		submitUpdateStudent(e: Event): void {
 			e.preventDefault();
-			axios
+			this.verify();
+			_axios
 				.put(
-					`https://sheltered-basin-99154.herokuapp.com/api/student/${this.student}`,
+					`student/${this.student}`,
 					{
 						name: document.querySelector("select")?.value,
 						month: this.month,
-						lessons: 
-							{
-								day: this.day,
-								title: this.title,
-								link: this.link,
-							},
+						lessons: {
+							day: this.day,
+							title: this.title,
+							link: this.link,
+						},
 					},
 					{
 						headers: {
@@ -217,8 +220,9 @@ export default defineComponent({
 		},
 		submitDeleteStudent(e: Event): void {
 			e.preventDefault();
-			axios
-				.delete(`https://sheltered-basin-99154.herokuapp.com/api/student/`, {
+			this.verify();
+			_axios
+				.delete(`student`, {
 					data: {
 						name: this.studentSelectedDeleted,
 					},
