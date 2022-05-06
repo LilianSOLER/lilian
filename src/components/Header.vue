@@ -30,23 +30,13 @@
 							<i class="fa fa-caret-down"></i>
 						</button>
 						<div class="dropdown-content">
-							<router-link class="nav-link" to="/cours/student/amandine"
-								>Amandine</router-link
+							<router-link
+								class="nav-link"
+								v-for="studentName in studentsName"
+								:to=studentRoad(studentName)
+								:key="studentName"
 							>
-							<router-link class="nav-link" to="/cours/student/salome"
-								>Salome</router-link
-							>
-							<router-link class="nav-link" to="/cours/student/slimane"
-								>Slimane</router-link
-							>
-							<router-link class="nav-link" to="/cours/student/kevin-j"
-								>Kevin J</router-link
-							>
-							<router-link class="nav-link" to="/cours/student/romain-b"
-								>Romain B</router-link
-							>
-							<router-link class="nav-link" to="/cours/student/zoe-b"
-								>Zoe B</router-link
+								{{ studentName }}</router-link
 							>
 						</div>
 					</div>
@@ -70,7 +60,7 @@
 						</div>
 					</div>
 
-						<div class="dropdown">
+					<div class="dropdown">
 						<button class="dropbtn">
 							Admin
 							<i class="fa fa-caret-down"></i>
@@ -84,7 +74,7 @@
 							</router-link>
 						</div>
 					</div>
-					
+
 					<a title="Site de Noah SOLER'" href="https://noah.didelo.fr"
 						>Noah SOLER</a
 					>
@@ -100,11 +90,40 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import TypedComponent from "@/components/Typed.vue";
+import _axios from "@/plugins/axios";
+import { AxiosResponse } from "axios";
+
+
+interface Student {
+	_id: string;
+	name: string;
+	class: string;
+	cours: {
+		_id: string;
+		__v: number;
+		month: string;
+		lessons: {
+			_id: string;
+			day: string;
+			title: string;
+			link: string;
+		}[];
+	}[];
+}
+
+interface DataComponent {
+	studentsName: string[];
+}
 
 export default defineComponent({
 	name: "Header",
 	components: {
 		TypedComponent,
+	},
+	data(): DataComponent {
+		return {
+			studentsName: [],
+		};
 	},
 	methods: {
 		mobileNav() {
@@ -117,6 +136,26 @@ export default defineComponent({
 				}
 			}
 		},
+		loadStudents(){
+			_axios
+				.get("student")
+				.then((response: AxiosResponse<{ message: string; students: Student[] }>) => {
+					let newStudent: string[] = [];
+					response.data.students.forEach(element => {
+						newStudent.push(element.name);
+					});
+					this.studentsName = newStudent;
+				})
+				.catch(error => {
+					console.log(error);
+				});
+		},
+		studentRoad(studentName: string) {
+			return `/cours/student/${studentName}`;
+		},
+	},
+	mounted() {
+		this.loadStudents();
 	},
 });
 </script>
