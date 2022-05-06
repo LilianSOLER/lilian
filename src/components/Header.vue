@@ -12,15 +12,13 @@
 							<i class="fa fa-caret-down"></i>
 						</button>
 						<div class="dropdown-content">
-							<router-link
+						<router-link
 								class="nav-link"
-								to="/school/peip-2/application-du-web"
-								>Applications du Web 4</router-link
+								v-for="schoolInfo in schoolsInfo"
+								:to="schoolRoad(schoolInfo.level, schoolInfo.title)"
+								:key="schoolInfo.title"
 							>
-							<router-link
-								class="nav-link"
-								to="/school/info-3/programmation-web"
-								>Programmation Web 6</router-link
+								{{ capitalize(schoolInfo.title) }}</router-link
 							>
 						</div>
 					</div>
@@ -33,7 +31,7 @@
 							<router-link
 								class="nav-link"
 								v-for="studentName in studentsName"
-								:to=studentRoad(studentName)
+								:to="studentRoad(studentName)"
 								:key="studentName"
 							>
 								{{ capitalize(studentName) }}</router-link
@@ -111,8 +109,33 @@ interface Student {
 	}[];
 }
 
+interface School {
+	_id: string;
+	level: string;
+	title: string;
+	contents: [
+		{
+			title: string;
+			_id: string;
+			subcontents: [
+				{
+					title: string;
+					_id: string;
+					link: string;
+				}
+			];
+		}
+	];
+}
+
+interface SchoolInfo {
+	level: string;
+	title: string;
+}
+
 interface DataComponent {
-	studentsName: string[];
+	studentsName: string[] | null;
+	schoolsInfo: SchoolInfo[] | null;
 }
 
 export default defineComponent({
@@ -122,7 +145,8 @@ export default defineComponent({
 	},
 	data(): DataComponent {
 		return {
-			studentsName: [],
+			studentsName: null,
+			schoolsInfo: null,
 		};
 	},
 	methods: {
@@ -150,8 +174,25 @@ export default defineComponent({
 					console.log(error);
 				});
 		},
+		loadSchool(): void {
+			_axios
+			.get(`school`)
+			.then(
+				(res: AxiosResponse<School[]>) => {
+					console.log(res.data);
+					let newschools: SchoolInfo[] = [];
+					res.data.forEach(element => {
+						newschools.push({level: element.level, title: element.title});
+					});
+					this.schoolsInfo = newschools;
+				}
+			);
+		},
 		studentRoad(studentName: string) {
 			return `/cours/student/${studentName}`;
+		},
+		schoolRoad(level: string, title: string) {
+			return `/school/${level}/${title}`;
 		},
 		capitalize(str: string): string {
 			if (str == "") return "";
@@ -162,6 +203,7 @@ export default defineComponent({
 	},
 	mounted() {
 		this.loadStudents();
+		this.loadSchool();
 	},
 });
 </script>

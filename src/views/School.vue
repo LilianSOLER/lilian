@@ -81,6 +81,7 @@ export default defineComponent({
 			.get(`school/${this.titleProp}`)
 			.then(
 				(res: AxiosResponse<{ message: string; schoolSubject: School[] }>) => {
+					console.log(res.data);
 					this.school = res.data.schoolSubject[0];
 					this.school.title = this.capitalize(this.school.title);
 				}
