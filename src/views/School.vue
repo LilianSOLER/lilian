@@ -24,7 +24,8 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
-import axios, { AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
+import _axios from "@/plugins/axios";
 
 interface School {
 	_id: string;
@@ -76,8 +77,8 @@ export default defineComponent({
 			return str.charAt(0).toUpperCase() + str.slice(1);
 		},
 		loadSchool(): void {
-			axios
-			.get(`https://sheltered-basin-99154.herokuapp.com/api/school/${this.titleProp}`)
+			_axios
+			.get(`school/${this.titleProp}`)
 			.then(
 				(res: AxiosResponse<{ message: string; schoolSubject: School[] }>) => {
 					this.school = res.data.schoolSubject[0];
