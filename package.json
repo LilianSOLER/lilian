@@ -3,8 +3,8 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"serve": "vue-cli-service serve --mode dev",
-		"serve:prod": "vue-cli-service serve --mode prod",
+		"dev": "vue-cli-service serve --mode dev",
+		"dev:prod": "vue-cli-service serve --mode prod",
 		"build": "vue-cli-service build --mode prod",
 		"build:preprod": "vue-cli-service build --mode preprod",
 		"lint": "vue-cli-service lint"
@@ -14,8 +14,7 @@
 		"core-js": "^3.6.5",
 		"typed.ts": "^2.1.0",
 		"vue": "^3.0.0",
-		"vue-router": "^4.0.0-0",
-		"vue-typed-js": "^0.1.2"
+		"vue-router": "^4.0.0-0"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.18.0",

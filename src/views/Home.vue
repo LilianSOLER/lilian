@@ -19,8 +19,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { AxiosResponse } from "axios";
-import _axios from '@/plugins/axios';
-
+import _axios from "@/plugins/axios";
 
 interface Article {
 	paragraphs: [
