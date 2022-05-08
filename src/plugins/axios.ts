@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const config = {
-  baseURL: process.env.VUE_APP_BACK_URL as string,
+  baseURL:import.meta.env.VITE_APP_BACK_URL as string,
   // timeout: 60 * 1000, // Timeout
   // withCredentials: true, // Check cross-site Access-Control
 }
