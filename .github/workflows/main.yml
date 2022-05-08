@@ -27,5 +27,6 @@ jobs:
       - name: Deployment
         run: |
           echo Deploy preprod and dev
+          yarn
           ./deploy.sh dev
           ./deploy.sh preprod
