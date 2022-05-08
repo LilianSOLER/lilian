@@ -13,7 +13,7 @@
 							v-for="(subContent, index2) in content.subcontents"
 							:key="'sub-content-' + index2"
 						>
-							<a :href="'/' + subContent?.link">{{ subContent?.title }}</a>
+							<a :href="'https://data.didelo.fr/' + subContent?.link">{{ subContent?.title }}</a>
 						</li>
 					</ul>
 				</div>
@@ -25,7 +25,7 @@
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
 import { AxiosResponse } from "axios";
-import _axios from "@/plugins/axios";
+import _axios from "../plugins/axios";
 
 interface School {
 	_id: string;
