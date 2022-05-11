@@ -13,7 +13,7 @@
 							v-for="(subContent, index2) in content.subcontents"
 							:key="'sub-content-' + index2"
 						>
-							<a :href="'https://data.didelo.fr/' + subContent?.link">{{ subContent?.title }}</a>
+							<a :href="'https://data.didelo.fr/school/' + school?.level + '/' + realTitle  + '/' + subContent?.link">{{ subContent?.title }}</a>
 						</li>
 					</ul>
 				</div>
@@ -48,6 +48,7 @@ interface School {
 
 interface DataComponent {
 	school: null | School;
+	realTitle: null | string;
 }
 
 export default defineComponent({
@@ -67,6 +68,7 @@ export default defineComponent({
 	data(): DataComponent {
 		return {
 			school: null,
+			realTitle: null,
 		};
 	},
 	methods: {
@@ -83,7 +85,8 @@ export default defineComponent({
 				(res: AxiosResponse<{ message: string; schoolSubject: School[] }>) => {
 					console.log(res.data);
 					this.school = res.data.schoolSubject[0];
-					this.school.title = this.capitalize(this.school.title);
+					this.realTitle = this.school.title
+					this.school.title = this.capitalize(this.realTitle);
 				}
 			);
 		},
