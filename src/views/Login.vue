@@ -74,6 +74,7 @@ export default defineComponent({
 					}
 				})
 				.catch((error) => {
+					alert(error);
 					console.log(error);
 				});
 		},

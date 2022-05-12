@@ -47,7 +47,7 @@
 						<div class="dropdown-content">
 							<a
 								title="Curriculum Vitae  long de SOLER Lilian"
-								href="asset/cv.pdf"
+								href="https://docs.google.com/document/d/e/2PACX-1vTIakmEHVD5OEuQf1ujL0s3znDy66IYiaFabaZouxiNEOHB07AaQN6ceNhNqxTbYIb2C6XZi_b9L5i1/pub"
 								>CV long
 							</a>
 							<a
