@@ -1,25 +1,25 @@
 <template>
 	<div class="sidebar">
-		<a href="https://www.facebook.com/lilian.soler.5" class="facebook"
+		<a href="https://www.facebook.com/lilian.soler.5" alt="facebook" aria-label="facebook" class="facebook"
 			><i class="fa fa-facebook"></i
 		></a>
-		<a href="https://twitter.com/LilianSoler6" class="twitter"
+		<a href="https://twitter.com/LilianSoler6" alt="twitter" aria-label="twitter" class="twitter"
 			><i class="fa fa-twitter"></i
 		></a>
-		<a href="https://www.instagram.com/lilian64160/" class="instagram"
+		<a href="https://www.instagram.com/lilian64160/" alt="instagram" aria-label="instagram" class="instagram"
 			><i class="fa fa-instagram"></i
 		></a>
 		<a
-			href="https://www.linkedin.com/in/soler-lilian-2aa832182/"
+			href="https://www.linkedin.com/in/soler-lilian-2aa832182/" alt="linkedin" aria-label="linkedin"
 			class="linkedin"
 			><i class="fa fa-linkedin"></i
 		></a>
 		<a
-			href="https://www.youtube.com/channel/UCYA1jgZSSP9oISr1nkvIwHw?view_as=subscriber"
-			class="youtube"
+			href="https://www.youtube.com/channel/UCYA1jgZSSP9oISr1nkvIwHw?view_as=subscriber" alt="youtube" aria-label="youtube"
+			class="youtube" 
 			><i class="fa fa-youtube"></i
 		></a>
-		<a href="https://www.github.com/LilianSOLER" class="facebook"
+		<a href="https://www.github.com/LilianSOLER" class="facebook" alt="github" aria-label="github"
 			><i class="fa fa-github"></i
 		></a>
 	</div>
