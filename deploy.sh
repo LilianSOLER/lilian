@@ -2,7 +2,10 @@
 DIR="/home/didelofr/public_html/lilian-$1"
 SERVER="didelofr@didelo.fr"
 
+echo "👷 Build the prod version"
+yarn
 yarn run build:$1
-ssh $SERVER "rm -rf $DIR"
-ssh $SERVER "mkdir -p $DIR"
-scp -r dist/* $SERVER:$DIR
+
+echo "🗑🚀 Synchronize all files"
+rsync -avzhe ssh --progress --delete "dist/" "$SERVER:$DIR/"
+echo "🎉 Project deployed"
