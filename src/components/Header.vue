@@ -1,7 +1,7 @@
 <template>
 	<header>
 		<div class="header">
-			<router-link class="nav-link" to="/">
+			<router-link class="nav-link" alt="Logo avec effet de saisie" aria-label="Logo avec effet de saisie" to="/">
 				<TypedComponent></TypedComponent>
 			</router-link>
 			<div class="header-right">
@@ -76,7 +76,7 @@
 					<a title="Site de Noah SOLER'" href="https://noah.didelo.fr"
 						>Noah SOLER</a
 					>
-					<a href="javascript:void(0);" class="icon" @click="mobileNav()">
+					<a href="https://didelo.fr" class="icon" onclick="mobileNav()" alt="Rien" aria-label="Rien">
 						&#9776;</a
 					>
 				</div>
@@ -159,6 +159,7 @@ export default defineComponent({
 					x.className = "topnav";
 				}
 			}
+			return false;
 		},
 		loadStudents(){
 			_axios
