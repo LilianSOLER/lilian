@@ -13,7 +13,7 @@
 							v-for="(subContent, index2) in content.subcontents"
 							:key="'sub-content-' + index2"
 						>
-							<a :href="'https://data.didelo.fr/school/' + school?.level + '/' + realTitle  + '/' + subContent?.link">{{ subContent?.title }}</a>
+							<a :href="'https://data.lilian.didelo.fr/school/' + school?.level + '/' + realTitle  + '/' + subContent?.link">{{ subContent?.title }}</a>
 						</li>
 					</ul>
 				</div>
