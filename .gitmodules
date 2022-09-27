@@ -1,0 +1,9 @@
+[submodule "lilian-front"]
+	path = lilian-front
+	url = git@github.com:LilianSOLER/lilian-front.git
+[submodule "lilian-node"]
+	path = lilian-node
+	url = git@github.com:LilianSOLER/lilian-node.git
+[submodule "lilian-data"]
+	path = lilian-data
+	url = git@github.com:LilianSOLER/lilian-data.git
